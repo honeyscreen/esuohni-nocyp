@@ -1,0 +1,8 @@
+/env
+*.pyc
+*.DS_Store
+*.swo
+*.swp
+*.json
+*.sqlite3
+youappi_token.txt
