@@ -3,9 +3,9 @@
 ### Install
 
 ```
-$ git clone ...
+$ git clone https://github.com/tantara/esuohni-nocyp.git
 
-$ cd pycon
+$ cd esuohni-nocyp
 
 $ virtualenv env --python=`which python3`
 
