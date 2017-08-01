@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-AIP_TOKEN=open("youappi_token.txt").read()
+API_TOKEN=open("youappi_token.txt").read()
 print("TOKEN:", API_TOKEN)
 
 def run():
