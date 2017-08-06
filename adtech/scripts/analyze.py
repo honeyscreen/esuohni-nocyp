@@ -64,3 +64,26 @@ def run():
             )
 
     print("end")
+    
+    
+    
+    
+    
+    
+    
+    
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def callback(request):
+    user_id = request.GET.get('user_id')
+    click_id = request.GET.get('click_id')
+    payout = request.GET.get('payout')
+
+    AdLog.objects.create(
+        user_id=user_id,
+        click_id=click_id,
+        payout=payout
+    )
+
+    return HttpResponse()
